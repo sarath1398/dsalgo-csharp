@@ -6,6 +6,7 @@
         {
             for (int i = 0; i < n; i++)
             {
+                bool swapped = false;
                 // For every iteration, the maximum value moves to the last
                 for (int j = 0; j < n - i - 1; j++)
                 {
@@ -13,7 +14,13 @@
                     if (arr[j] > arr[j+1])
                     {
                         (arr[j], arr[j+1]) = (arr[j+1], arr[j]);
+                        swapped = true;
                     }
+                }
+                // Break out of the loop if the array is already in sorted order without requiring any swaps
+                if (!swapped)
+                {
+                    break;
                 }
             }
             Console.WriteLine(string.Join(',',arr));
