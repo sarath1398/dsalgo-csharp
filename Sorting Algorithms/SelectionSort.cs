@@ -1,4 +1,4 @@
-﻿namespace Code_Implementations
+﻿namespace Sorting_Algorithms
 {
     public class SelectionSort
     {
