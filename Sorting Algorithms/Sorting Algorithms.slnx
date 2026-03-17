@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="../Heaps/Heaps.csproj" Id="b763b230-4222-4657-97e1-eb8d50790654" />
   <Project Path="../LinkedList/LinkedList.csproj" Id="ecf40fd6-e191-4cbf-9132-5a16e1999240" />
   <Project Path="Sorting Algorithms.csproj" />
 </Solution>
