@@ -14,6 +14,9 @@ This project is designed to help understand core concepts of **DSA (Data Structu
 - [Quick Sort](https://github.com/sarath1398/dsalgo-csharp/blob/main/Sorting%20Algorithms/QuickSort.cs)
 - [Merge Sort](https://github.com/sarath1398/dsalgo-csharp/blob/main/Sorting%20Algorithms/MergeSort.cs)
 
+### 🗂️ Heaps
+- [Min Heap](https://github.com/sarath1398/dsalgo-csharp/blob/main/Heaps/Heap.cs)
+
 ---
 
 ## 🚀 Getting Started
